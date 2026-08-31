@@ -188,7 +188,7 @@ export default function App() {
                                             <input type="checkbox" checked={true}></input>
                                             <span>{value[0]}</span>
                                         </div>
-                                        <button onClick={() => {deleteNonActive(value[1])}}>
+                                        <button onClick ={() => {deleteNonActive(value[1])}}>
                                             <img src="../public/delete.png" alt="" />
                                         </button>
                                     </div>                                   

@@ -202,7 +202,7 @@ export default function App() {
             <footer>
                 <p className="footer-complete">{nonActive.length}/{todo.length} todos completed</p>
                 {nonActive.length !== 0 ? (
-                    <p className="footer-delete" onClick={clickDeleteAll}>Delete all completed</p>
+                    <p className="footer-delete" onClick = {clickDeleteAll}>Delete all completed</p>
                 ): (<></>)
                 }
             </footer>
